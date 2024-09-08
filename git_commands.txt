@@ -1,0 +1,20 @@
+  cd github-workshop/
+git init
+git status
+git add "file name"
+git status
+git rm --cached "file name"
+git status
+git add "file name"
+git statis
+git status
+git commit -m "first commit"
+ls
+git status
+rm "file name"
+git restore "file name"
+git status
+git remote add origin https://github.com/ankuronlyme/github-workshop.git
+git remote -v
+git remote set-url origin https://"personal access token"@github.com/ankuronlyme/github-workshop.git
+git push origin master
